@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_green">#5eb65c</color>
+    <color name="second_green">#63ea63</color>
+    <color name="transparent">#00000000</color>
+    <!-- Material Design Base Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="green">#5EB65C</color>
+    <color name="gray">#757575</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="text_color">#333333</color>
+    <color name="button_color">#5EB65C</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="slider_track">#E0E0E0</color>
+    <color name="divider_color">#E0E0E0</color>
+    <color name="text_secondary">#757575</color>
+    <color name="outline_button_stroke">#E0E0E0</color>
+    <color name="teal">#00796B</color>
+    <color name="teal_background">#eaf5f7</color>
+    <color name="red_background">#fbefef</color>
+
+    <color name="white_A700">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="red_500">#F44336</color>
+
+    <color name="red_text">#bc405a</color>
+    <!-- Greens -->
+    <color name="light_green_200">#C0EBA6</color>
+    <color name="green_800">#73e673</color>
+
+    <!-- Grays and Blue Grays -->
+    <color name="gray_50">#F5F9FF</color>
+    <color name="gray_100">#F0F0FF</color>
+    <color name="gray_300">#EEEEEE</color>
+    <color name="gray_500">#999999</color>
+    <color name="gray_800">#3B3B3B</color>
+    <color name="gray_900">#0D1220</color>
+    <color name="blue_gray_100">#CCCCCC</color>
+    <color name="blue_gray_400">#8A8A8A</color>
+    <color name="blue_gray_900">#292D32</color>
+    <color name="yellow">#FFB300</color>
+    <!-- Blues and Indigos -->
+    <color name="blue_50">#DDEBFF</color>
+    <color name="blue_700">#0066EE</color>
+    <color name="indigo_100">#BEC4FC</color>
+
+    <!-- Pinks -->
+    <color name="pink_300">#FF53B0</color>
+    <color name="pink_500">#EC3762</color>
+
+    <!-- Yellows and Oranges -->
+    <color name="yellow_50">#FEF7EE</color>
+    <color name="yellow_900">#FF7224</color>
+    <color name="amber_300">#FFCE50</color>
+    <color name="orange_400">#FA9B31</color>
+
+    <!-- Purples -->
+    <color name="deep_purple_50">#F0ECFA</color>
+
+    <!-- Alpha Black Variants -->
+    <color name="black_900">#000000</color>
+    <color name="black_900_3f">#3F000000</color>
+    <color name="black_900_21">#21000000</color>
+    <color name="colorBreakfast" >#FA9B31</color>
+    <color name="colorSnack">#2CB9B0</color>
+    <color name="colorLunch">#6C0D8F</color>
+    <color name="colorDinner">#EC3762</color>
+
+
+    <color name="gray_600">#757575</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="pink_50">#FCD6EC</color>
+    <color name="teal_a200">#63EEDA</color>
+    <color name="cyan_50">#D8FBF5</color>
+    <color name="deep_purple_300">#9B5CE5</color>
+
+    <color name="light_blue_a400">#03BBF8</color>
+    <color name="light_blue_100">#BDEEFE</color>
+
+    <color name="primary">#f69300</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="secondary">#fadad1</color>
+    <color name="gray_transparent">#40808080</color>
+
+    <color name="your_selection_color">#4CAF50</color>
+    <color name="your_today_text_color">#FF9800</color>
+    <color name="your_weekday_text_color">#212121</color>
+    <color name="your_weekend_text_color">#757575</color>
+
+    <color name="streak_day">#FFE0B2</color>
+    <color name="streak_highlight">#FFF3E0</color>
+    <color name="logged_day">#FFF3E0</color>
+    <color name="gray_light">#DDDDDD</color>
+<!--    <color name="text_primary">#DE000000</color>-->
+
+    <color name="menu_icon_tint">#757575</color>
+    <color name="text_primary">#212121</color>
+    <color name="ripple_color">#1F000000</color>
+    <color name="divider">#E0E0E0</color>
+
+    <color name="orange">#FF9800</color>
+    <color name="blue">#2196F3</color>
+    <color name="purple">#9C27B0</color>
+
+</resources>

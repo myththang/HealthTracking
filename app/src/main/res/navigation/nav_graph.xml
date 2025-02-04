@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/onboardFragment">
+    <fragment
+        android:id="@+id/onboardFragment"
+        android:name="com.fpt.edu.healthtracking.ui.onboarding.OnboardingFragment"
+        android:label="fragment_onboard"
+        tools:layout="@layout/fragment_onboard" >
+        <action
+            android:id="@+id/action_onboardFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment"
+            app:popUpTo="@id/activityLevelFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.fpt.edu.healthtracking.ui.welcome.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_activityLevelFragment"
+            app:destination="@id/activityLevelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.fpt.edu.healthtracking.ui.auth.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login"
+        >
+        <action
+            android:id="@+id/action_loginFragment_to_navigation_home"
+            app:destination="@id/navigation_home"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_loginFragment_to_phonenumber"
+            app:destination="@id/phonenumberFragment"
+            />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/phonenumberFragment"
+        android:name="com.fpt.edu.healthtracking.ui.auth.PhoneNumberFragment"
+        android:label="PhoneNumberFragment">
+        <action
+            android:id="@+id/action_phoneNumberFragment_to_OTPFragment"
+            app:destination="@id/OTPFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/activityLevelFragment"
+        android:name="com.fpt.edu.healthtracking.ui.infomation.ActivityLevelFragment"
+        android:label="fragment_activity_level"
+        tools:layout="@layout/fragment_activity_level" >
+        <action
+            android:id="@+id/action_activityLevelFragment_to_personalInfoFragment"
+            app:destination="@id/personalInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_forgetPassword"
+        android:name="com.fpt.edu.healthtracking.ui.auth.ForgotPassword"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password"
+        >
+        <action
+            android:id="@+id/action_forgotFragment_to_loginFragment"
+            app:destination="@id/loginFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/personalInfoFragment"
+        android:name="com.fpt.edu.healthtracking.ui.infomation.PersonalInfoFragment"
+        android:label="fragment_personal_info"
+        tools:layout="@layout/fragment_personal_info" >
+        <action
+            android:id="@+id/action_personalInfoFragment_to_medicalConditionsFragment"
+            app:destination="@id/medicalConditionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicalConditionsFragment"
+        android:name="com.fpt.edu.healthtracking.ui.infomation.MedicalConditionFragment"
+        android:label="fragment_medical_conditions"
+        tools:layout="@layout/fragment_medical_conditions" >
+        <action
+            android:id="@+id/action_medicalConditionsFragment_to_dietPreferenceFragment"
+            app:destination="@id/dietPreferenceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dietPreferenceFragment"
+        android:name="com.fpt.edu.healthtracking.ui.infomation.DietPreferenceFragment"
+        android:label="fragment_diet_preference"
+        tools:layout="@layout/fragment_diet_preference" >
+        <action
+            android:id="@+id/action_dietPreferenceFragment_to_fitnessGoalFragment"
+            app:destination="@id/fitnessGoalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fitnessGoalFragment"
+        android:name="com.fpt.edu.healthtracking.ui.infomation.FitnessGoalFragment"
+        android:label="fragment_fitness_goal"
+        tools:layout="@layout/fragment_fitness_goal" >
+        <action
+            android:id="@+id/action_fitnessGoalFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_fitnessGoalFragment_to_desiredWeightFragment"
+            app:destination="@id/desiredWeightFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.fpt.edu.healthtracking.ui.auth.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_OTPFragment"
+            app:destination="@id/OTPFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/desiredWeightFragment"
+        android:name="com.fpt.edu.healthtracking.ui.infomation.DesiredWeightFragment"
+        android:label="fragment_desired_weight"
+        tools:layout="@layout/fragment_desired_weight" >
+        <action
+            android:id="@+id/action_desiredWeightFragment_to_weightChangeRateFragment"
+            app:destination="@id/weightChangeRateFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.fpt.edu.healthtracking.ui.home.HomeFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_notifications"
+            app:destination="@id/navigation_notifications"/>
+
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_profile"
+            app:destination="@id/navigation_profile"/>
+
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_nutrition"
+            app:destination="@id/navigation_nutrition"/>
+    </fragment>
+
+
+
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.fpt.edu.healthtracking.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.fpt.edu.healthtracking.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_navigation_profile_to_navigation_account_detail"
+            app:destination="@id/navigation_account_detail"/>
+        <action
+            android:id="@+id/action_navigation_profile_to_navigation_goal"
+            app:destination="@id/navigation_goal"/>
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_account_detail"
+        android:name="com.fpt.edu.healthtracking.ui.profile.AccountDetailFragment"
+        android:label="@string/title_account_detail"
+        tools:layout="@layout/fragment_account_detail"
+        />
+    <fragment
+        android:id="@+id/navigation_goal"
+        android:name="com.fpt.edu.healthtracking.ui.profile.GoalFragment"
+        android:label="@string/title_goal"
+        tools:layout="@layout/fragment_goal" />
+
+    <fragment
+        android:id="@+id/navigation_nutrition"
+        android:name="com.fpt.edu.healthtracking.ui.nutrition.NutritionFragment"
+        android:label="@string/title_nutrition"
+        tools:layout="@layout/fragment_nutrition" />
+    <fragment
+        android:id="@+id/foodLogFragment"
+        android:name="com.fpt.edu.healthtracking.ui.food.FoodLogFragment"
+        android:label="FoodLogFragment" />
+    <fragment
+        android:id="@+id/OTPFragment"
+        android:name="com.fpt.edu.healthtracking.ui.auth.OTPFragment"
+        android:label="fragment_o_t_p"
+        tools:layout="@layout/fragment_o_t_p" >
+        <action
+            android:id="@+id/action_OTPFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_OTPFragment_to_forgotFragment"
+            app:destination="@id/forgotPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.fpt.edu.healthtracking.ui.auth.ForgotPassword"
+        tools:layout="@layout/fragment_forgot_password"/>
+    <fragment
+        android:id="@+id/navigation_menumoremenu"
+        android:name="com.fpt.edu.healthtracking.ui.menu.MoreMenuFragment"
+        android:label="fragment_more_menu"
+        tools:layout="@layout/fragment_more_menu">
+    </fragment>
+    <fragment
+        android:id="@+id/weightChangeRateFragment"
+        android:name="com.fpt.edu.healthtracking.ui.infomation.WeightChangeRateFragment"
+        android:label="WeightChangeRateFragment"
+        tools:layout="@layout/fragment_weight_change_rate">
+        <action
+            android:id="@+id/action_weightChangeRateFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseStreakFragment"
+        android:name="com.fpt.edu.healthtracking.ui.exercise.ExerciseStreakFragment"
+        android:label="Streak"
+        tools:layout="@layout/fragment_exercise_streak" />
+
+</navigation>

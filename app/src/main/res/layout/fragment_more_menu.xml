@@ -1,0 +1,114 @@
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_profile_header">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/profileImage"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/CircleImageView"
+                android:src="@drawable/default_avatar"/>
+
+            <TextView
+                android:id="@+id/usernameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnExercisePlan"
+            style="@style/Widget.App.Button.MenuOption"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Kế hoạch luyện tập"
+            app:icon="@drawable/ic_exercise"
+            app:iconTint="@color/menu_icon_tint" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGoal"
+            style="@style/Widget.App.Button.MenuOption"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Mục tiêu"
+            app:icon="@drawable/ic_goal"
+            app:iconTint="@color/menu_icon_tint" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMealPlan"
+            style="@style/Widget.App.Button.MenuOption"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Kế hoạch Thực Đơn"
+            app:icon="@drawable/ic_meal"
+            app:iconTint="@color/menu_icon_tint" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGraph"
+            style="@style/Widget.App.Button.MenuOption"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Thống kê"
+            app:icon="@drawable/ic_graph"
+            app:iconTint="@color/menu_icon_tint" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChangePassword"
+            style="@style/Widget.App.Button.MenuOption"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Đổi mật khẩu"
+            app:icon="@drawable/ic_password"
+            app:iconTint="@color/menu_icon_tint" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChatBot"
+            style="@style/Widget.App.Button.MenuOption"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Trợ lý ảo"
+            app:icon="@drawable/ic_chatbot"
+            app:iconTint="@color/menu_icon_tint" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChat"
+            style="@style/Widget.App.Button.MenuOption"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Hỏi đáp cùng Trainer"
+            app:icon="@drawable/ic_chat_trainer"
+            app:iconTint="@color/menu_icon_tint" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogout"
+            style="@style/Widget.App.Button.MenuOption.Warning"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Đăng xuất"
+            app:icon="@drawable/ic_logout"
+            app:iconTint="@color/red_500" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

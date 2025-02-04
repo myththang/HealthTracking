@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape
+            android:shape="ring"
+            android:thicknessRatio="8">
+            <solid android:color="@android:color/darker_gray" />
+        </shape>
+    </item>
+
+    <!-- Breakfast (Orange Segment) -->
+    <item android:id="@android:id/progress">
+        <rotate
+            android:fromDegrees="270"
+            android:pivotX="50%"
+            android:pivotY="50%">
+            <shape
+                android:shape="ring"
+                android:thicknessRatio="8">
+                <gradient
+                    android:angle="0"
+                    android:endColor="@color/colorBreakfast"
+                    android:startColor="@color/colorBreakfast"
+                    android:type="sweep" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- Snack (Blue Segment) -->
+    <item android:id="@android:id/progress">
+        <rotate android:fromDegrees="330"
+        android:pivotX="50%"
+        android:pivotY="50%">
+        <shape
+            android:shape="ring"
+            android:thicknessRatio="8">
+            <gradient
+                android:angle="0"
+                android:endColor="@color/colorSnack"
+                android:startColor="@color/colorSnack"
+                android:type="sweep" />
+        </shape>
+    </rotate>
+</item>
+
+    <!-- Lunch (Purple Segment) -->
+<item android:id="@android:id/progress">
+<rotate
+    android:fromDegrees="180"
+    android:pivotX="50%"
+    android:pivotY="50%">
+    <shape
+        android:shape="ring"
+        android:thicknessRatio="8">
+        <gradient
+            android:angle="0"
+            android:endColor="@color/colorLunch"
+            android:startColor="@color/colorLunch"
+            android:type="sweep" />
+    </shape>
+</rotate>
+</item>
+
+    <!-- Dinner (Pink Segment) -->
+<item android:id="@android:id/progress">
+<rotate
+    android:fromDegrees="90"
+    android:pivotX="50%"
+    android:pivotY="50%">
+    <shape
+        android:shape="ring"
+        android:thicknessRatio="8">
+        <gradient
+            android:angle="0"
+            android:endColor="@color/colorDinner"
+            android:startColor="@color/colorDinner"
+            android:type="sweep" />
+    </shape>
+</rotate>
+</item></layer-list>

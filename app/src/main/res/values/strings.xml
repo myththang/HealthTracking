@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Health Tracking</string>
+    <string-array name="time_range_options">
+        <item>1 tuần</item>
+        <item>1 tháng</item>
+        <item>3 tháng</item>
+        <item>6 tháng</item>
+        <item>1 năm</item>
+    </string-array>
+
+    <string name="weight_update_title">Cập nhật cân nặng</string>
+    <string name="weight_update_message">Đã hơn 1 tuần kể từ lần cập nhật cân nặng gần nhất. Bạn nên cập nhật cân nặng để theo dõi tiến độ tốt hơn.</string>
+    <string name="update_now">Cập nhật ngay</string>
+    <string name="later">Để sau</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_title">Bạn đã sẵn sàng khám phá phiên bản khỏe mạnh nhất của mình chưa?</string>
+    <string name="welcome_description">Đăng nhập ngay để bắt đầu hành trình cải thiện sức khỏe cùng chúng tôi.</string>
+    <string name="get_started">Bắt đầu nào!</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="title_activity_forget_password">forget_password</string>
+
+    <string name="ob_title_1">Xin chào!</string>
+    <string name="ob_title_2">Quản lý bữa ăn hiệu quả</string>
+    <string name="ob_title_3">Ghi chép nhanh gọn các buổi tập</string>
+
+    <string name="ob_des_1">Đây là một khởi đầu tuyệt vời cho một cuộc sống mới, khỏe mạnh hơn</string>
+    <string name="ob_des_2">Cập nhật thực đơn hàng ngày một cách đơn giản</string>
+    <string name="ob_des_3">Empty</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="title_diary">Nhật Ký</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_action">Hoạt Động</string>
+    <string name="title_personal">Cá nhân</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="back_button">back button\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="title_profile">Profile\n</string>
+    <string name="title_fullname">Họ Tên</string>
+    <string name="email">Email</string>
+    <string name="title_phone_number">Số điện thoại</string>
+    <string name="title_dob">Ngày sinh</string>
+    <string name="title_weight">Cân nng</string>
+    <string name="title_height">Chiều cao</string>
+    <string name="title_account_detail">Account detail</string>
+    <string name="title_goal">Goal</string>
+    <string name="title_nutrition">Nutrition</string>
+    <string name="menu">Menu</string>
+    <string name="privacy_policy">This is your privacy policy text where you describe the app\'s use of permissions and data.\n        Explain what data is collected, how it\'s used, and the rationale behind asking for permissions like HealthConnect</string>
+
+
+</resources>

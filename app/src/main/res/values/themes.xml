@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HealthTracking" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/green</item>
+        <!-- Force light mode -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="Theme.HealthTracking" parent="Base.Theme.HealthTracking" >
+        <item name="colorPrimary">@color/green</item>
+    </style>
+
+    <style name="Theme.HealthTracking.Starting" parent="Theme.HealthTracking">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+</resources>
